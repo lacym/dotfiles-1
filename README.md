@@ -16,4 +16,6 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub
 
 gem install rmate
 
+sudo ./setswap.sh
+
 ```
