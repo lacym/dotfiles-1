@@ -5,7 +5,9 @@ git clone https://github.com/lacym/dotfiles-1.git
 
 cd dotfiles
 
-then run install.sh
+then run 
+~/install.sh
+source ~/.bashrc
 
 
 ssh-copy-id -i ~/.ssh/mykey user@host
