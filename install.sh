@@ -5,4 +5,5 @@ for file in $(find . -maxdepth 1 -name ".*" -type f  -printf "%f\n" ); do
     fi
     ln -s $PWD/$file ~/$file
 done
+source ~/.bashrc
 echo "Installed"
